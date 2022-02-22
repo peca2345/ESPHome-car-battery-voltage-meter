@@ -1,18 +1,18 @@
 # ESPHome - car battery meter
 
 
-## Description
+## Description:
 
 - MCU: ESP8266
 - Input voltage: 10 - 15V DC
 - Power consumption: 20 mA (deep sleep 20 uA)
 
 
-## Schema
+## Schema:
 
 ![Schematic](https://github.com/peca2345/ESPHome-car-battery-voltage-meter/raw/main/schema.png)
 
-## Code
+## ESPHome code:
 
     esphome:
       name: car-battery-voltage
@@ -48,7 +48,7 @@
       sleep_duration: 60min
       id: battery_deep_sleep
 
-## Tips
+## Tips:
 
 You must find out the correct mulitply value yourself by testing for your wiring.
 
