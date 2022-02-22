@@ -10,7 +10,7 @@
 
 ## Schema
 
-![enter image description here](https://photos.app.goo.gl/LGtXwSTnXPz9NPTj8)
+![Schematic](https://github.com/peca2345/ESPHome-car-battery-voltage-meter/raw/main/schema.png)
 
 ## Code
 
