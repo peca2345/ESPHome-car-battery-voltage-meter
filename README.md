@@ -33,7 +33,7 @@
       - platform: adc
         pin: A0
         name: "car_battery_voltage"
-        update_interval: 60s
+        update_interval: 1s
         accuracy_decimals: 1
         filters:
           - multiply: 15.25 # you have to find out the correct value by testing
