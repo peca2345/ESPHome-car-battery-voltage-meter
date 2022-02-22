@@ -5,7 +5,7 @@
 
 - MCU: ESP8266
 - Input voltage: 10 - 15V DC
-- Power consumption: 20 mA (in deep sleep 20 uA)
+- Power consumption: 20 mA (deep sleep 20 uA)
 
 
 ## Schema
