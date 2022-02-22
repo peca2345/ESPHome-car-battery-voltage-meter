@@ -22,31 +22,29 @@
     logger:
     api:
     ota:
-      password: "a0585d60510e89da5ace2456882134ae"
+      password: "a0585d60510e89da5ace2456882134ae" # use your esphome generated key 
     
     wifi:
-      ssid: !secret wifi_ssid
-      password: !secret wifi_password
+      ssid: !secret wifi_ssid # enter your network name 
+      password: !secret wifi_password # enter your wifi password
     
     
     sensor:
       - platform: adc
         pin: A0
         name: "car_battery_voltage"
-        id: adc_voltage
         update_interval: 60s
         accuracy_decimals: 1
         filters:
-          - multiply: 15.25 
-          - median:
+          - multiply: 15.25 # you have to find the right value by testing 
+          - median: # filters out deviations 
               window_size: 10
               send_every: 5
               send_first_at: 1
          
     deep_sleep:
       run_duration: 60s 
-      sleep_duration: 60min
-      id: battery_deep_sleep
+      sleep_duration: 60min # set as you need 
 
 ## Tips:
 
