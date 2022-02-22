@@ -48,4 +48,8 @@
       sleep_duration: 60min
       id: battery_deep_sleep
 
+## Tips
 
+You must find out the correct mulitply value yourself by testing for your wiring.
+
+Measure with a multimeter the real value of the voltage and by increasing or decreasing the value of the multiply find the optimum value to be as accurate as possible to the measured value
