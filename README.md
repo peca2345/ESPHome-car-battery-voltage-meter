@@ -36,7 +36,7 @@
         update_interval: 60s
         accuracy_decimals: 1
         filters:
-          - multiply: 15.25 # you have to find the right value by testing 
+          - multiply: 15.25 # you have to find out the correct value by testing
           - median: # filters out deviations 
               window_size: 10
               send_every: 5
