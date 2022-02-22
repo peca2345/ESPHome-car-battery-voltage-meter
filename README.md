@@ -52,4 +52,4 @@ You must find out the correct mulitply value yourself by testing for your wiring
 
 Measure with a multimeter the real value of the voltage and by increasing or decreasing the value of the multiply find the optimum value to be as accurate as possible to the measured value. The measured input voltage value must be as close as possible to the value displayed in log.
 
-I recommend to use ESP with external WIFI antenna.
+I recommend to use ESP with external WIFI antenna and diable backup WIFI hotspot in code.
